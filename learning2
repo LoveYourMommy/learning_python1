@@ -1,0 +1,21 @@
+import sys
+
+def moon_weight():
+    print('Input Your Weight:')
+    start_weight = int(sys.stdin.readline())
+    print('Input Moon Coefficent:')
+    moon_cof = float(sys.stdin.readline())
+    print('Input amount of age:')
+    year = int(sys.stdin.readline())
+    for year in range (0, year):
+        year += 1
+        start_weight += 1
+        weight_moon = start_weight * moon_cof
+        print('Year %s = %s' % (year, weight_moon))
+
+moon_weight()
+
+
+
+    #        moon_cof =0.165 #
+    #    start_weight = 80   #
