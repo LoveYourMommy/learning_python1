@@ -12,4 +12,8 @@ def mysquare(size, filled):
     if filled:
         t.end_fill()
 
+t.color(0.75, 1, 1)
 mysquare(50, True)
+t.color(0, 0, 0)
+mysquare(50, False)
+
