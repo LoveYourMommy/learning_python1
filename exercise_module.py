@@ -1,12 +1,15 @@
-import time
+import turtle
+
+t = turtle.Pen()
 
 
-def lots_of_second(second):
-    t1 = time.time()
-    for i in range(0, second):
-        print(i)
-    t2 = time.time()
-    print('it took %s seconds' % (t2 - t1))
+def mysquare(size, filled):
+    if filled:
+        t.begin_fill()
+    for x in range(1, 9):
+        t.forward(size)
+        t.left(45)
+    if filled:
+        t.end_fill()
 
-
-lots_of_second(100000)
+mysquare(50, True)
