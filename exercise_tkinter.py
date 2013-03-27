@@ -1,4 +1,8 @@
-__author__ = 'lym'
+#!/usr/bin/python3.2
+#__author__ = 'lym'
+
+import this
+
 
 
 from tkinter import *
